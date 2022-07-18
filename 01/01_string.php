@@ -1,3 +1,3 @@
-<?php 
-    echo '私の好きな食べ物は' . PHP_EOL;
-    echo 'たけのこです';
+<?php
+echo '私の好きな食べ物は' . PHP_EOL;
+echo 'たけのこです';
