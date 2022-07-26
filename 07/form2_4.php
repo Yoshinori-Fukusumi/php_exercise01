@@ -69,11 +69,9 @@ $selects = [
         <h3>購入するものを選択してください</h3>
 
         <select name="item_key">
-            <option value="バッグ">バッグ</option>
-            <option value="靴">靴</option>
-            <option value="時計">時計</option>
-            <option value="ネックレス">ネックレス</option>
-            <option value="ピアス">ピアス</option>
+            <?php foreach ($items as $item) : ?>
+                <?= '<option value="' . $item . '">' . $item . '</option>'; ?>
+            <?php endforeach; ?>
         </select><br>
         <br>
         <div class=" submit">
