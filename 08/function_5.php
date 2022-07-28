@@ -31,5 +31,4 @@ $msg = '今日は、' . $date . $week . '曜日です';
         <a href="function_5.php">戻る</a>
     <?php endif; ?>
 </body>
-
 </html>
